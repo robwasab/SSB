@@ -2,6 +2,10 @@ import numpy as np
 from numpy import sin
 from numpy import cos
 
+# Hilbert Transform Algorithm taken from here:
+# http://www.claysturner.com/dsp/asg.pdf
+# also included along with the code
+
 pi = np.pi
 
 def A(t, w1, w2, a):

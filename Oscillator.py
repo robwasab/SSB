@@ -24,6 +24,8 @@ class Oscillator(object):
 		return (x,y)
 
 if __name__ == '__main__':
+	import matplotlib
+	matplotlib.use('TkAgg')
 	import matplotlib.pyplot as plt
 	osc = Oscillator(fc=1E3, fs=44.1E3)
 	pts = 500
